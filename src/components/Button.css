@@ -1,0 +1,54 @@
+:root {
+    --primary: #fffafa;
+}
+
+.btn {
+    padding: 0.5rem 1rem;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn--primary {
+    background-color: var(--primary);
+    color: #000000;
+    border: 1px solid #343434;
+    display: flexbox;
+    height: 80%;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    transform: translate(0%, 10%);
+}
+
+.btn--outline {
+    background-color: transparent;
+    color: #000000;
+    padding: 0.5rem 1rem;
+    border: 1px solid #343434;
+    transition: all 0.3s ease-out;
+    display: flexbox;
+    height: 80%;
+    text-decoration: none;
+    align-items: center;
+    transform: translate(0%, 10%);
+}
+
+.btn--medium {
+    padding: 0.5rem 1rem;
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.btn--large {
+    padding: 0.5rem 1rem;
+    font-family: 'Rubik', sans-serif;
+}
+
+.btn--medium:hover, .btn--large:hover {
+    background: #000000;
+    color: #fffafa;
+    transition: all 0.3s ease-out;
+}
