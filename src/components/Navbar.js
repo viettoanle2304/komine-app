@@ -26,8 +26,8 @@ function Navbar() {
                 <div className="navbar-container">
                         
                         <Link to="/" className="navbar-logo">
-                            <img className='navbar-logo__komine-head' src={process.env.PUBLIC_URL + './images/KomineHead.PNG'} alt="Logo"/>
-                            <img className='navbar-logo__main-logo' src={process.env.PUBLIC_URL + './images/4.PNG'} alt="Logo"/>
+                            <img className='navbar-logo__komine-head' src={process.env.PUBLIC_URL + 'public/images/KomineHead.png'} alt="Logo"/>
+                            <img className='navbar-logo__main-logo' src={process.env.PUBLIC_URL + 'public/images/4.png'} alt="Logo"/>
                         </Link>
                     
                     <div className="menu-icon" onClick={handleClick}>
