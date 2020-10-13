@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/viettoanle2304/komine-app/static/css/main.61fb0ede.chunk.css",
-    "main.js": "/viettoanle2304/komine-app/static/js/main.9b30910d.chunk.js",
-    "main.js.map": "/viettoanle2304/komine-app/static/js/main.9b30910d.chunk.js.map",
-    "runtime-main.js": "/viettoanle2304/komine-app/static/js/runtime-main.1e430de2.js",
-    "runtime-main.js.map": "/viettoanle2304/komine-app/static/js/runtime-main.1e430de2.js.map",
-    "static/js/2.509d9487.chunk.js": "/viettoanle2304/komine-app/static/js/2.509d9487.chunk.js",
-    "static/js/2.509d9487.chunk.js.map": "/viettoanle2304/komine-app/static/js/2.509d9487.chunk.js.map",
-    "index.html": "/viettoanle2304/komine-app/index.html",
-    "precache-manifest.0c3d5a2617be3ed1f9f9355a4d4140c9.js": "/viettoanle2304/komine-app/precache-manifest.0c3d5a2617be3ed1f9f9355a4d4140c9.js",
-    "service-worker.js": "/viettoanle2304/komine-app/service-worker.js",
-    "static/css/main.61fb0ede.chunk.css.map": "/viettoanle2304/komine-app/static/css/main.61fb0ede.chunk.css.map",
-    "static/js/2.509d9487.chunk.js.LICENSE.txt": "/viettoanle2304/komine-app/static/js/2.509d9487.chunk.js.LICENSE.txt"
+    "main.css": "/komine-app/static/css/main.61fb0ede.chunk.css",
+    "main.js": "/komine-app/static/js/main.fbeb52c6.chunk.js",
+    "main.js.map": "/komine-app/static/js/main.fbeb52c6.chunk.js.map",
+    "runtime-main.js": "/komine-app/static/js/runtime-main.fe02941a.js",
+    "runtime-main.js.map": "/komine-app/static/js/runtime-main.fe02941a.js.map",
+    "static/js/2.509d9487.chunk.js": "/komine-app/static/js/2.509d9487.chunk.js",
+    "static/js/2.509d9487.chunk.js.map": "/komine-app/static/js/2.509d9487.chunk.js.map",
+    "index.html": "/komine-app/index.html",
+    "precache-manifest.26e83d10f4110270b48a9c8a79a891a8.js": "/komine-app/precache-manifest.26e83d10f4110270b48a9c8a79a891a8.js",
+    "service-worker.js": "/komine-app/service-worker.js",
+    "static/css/main.61fb0ede.chunk.css.map": "/komine-app/static/css/main.61fb0ede.chunk.css.map",
+    "static/js/2.509d9487.chunk.js.LICENSE.txt": "/komine-app/static/js/2.509d9487.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.1e430de2.js",
+    "static/js/runtime-main.fe02941a.js",
     "static/js/2.509d9487.chunk.js",
     "static/css/main.61fb0ede.chunk.css",
-    "static/js/main.9b30910d.chunk.js"
+    "static/js/main.fbeb52c6.chunk.js"
   ]
 }
