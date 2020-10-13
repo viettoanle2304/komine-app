@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/viettoanle2304/komine-app/static/css/main.61fb0ede.chunk.css",
+    "main.js": "/viettoanle2304/komine-app/static/js/main.9b30910d.chunk.js",
+    "main.js.map": "/viettoanle2304/komine-app/static/js/main.9b30910d.chunk.js.map",
+    "runtime-main.js": "/viettoanle2304/komine-app/static/js/runtime-main.1e430de2.js",
+    "runtime-main.js.map": "/viettoanle2304/komine-app/static/js/runtime-main.1e430de2.js.map",
+    "static/js/2.509d9487.chunk.js": "/viettoanle2304/komine-app/static/js/2.509d9487.chunk.js",
+    "static/js/2.509d9487.chunk.js.map": "/viettoanle2304/komine-app/static/js/2.509d9487.chunk.js.map",
+    "index.html": "/viettoanle2304/komine-app/index.html",
+    "precache-manifest.0c3d5a2617be3ed1f9f9355a4d4140c9.js": "/viettoanle2304/komine-app/precache-manifest.0c3d5a2617be3ed1f9f9355a4d4140c9.js",
+    "service-worker.js": "/viettoanle2304/komine-app/service-worker.js",
+    "static/css/main.61fb0ede.chunk.css.map": "/viettoanle2304/komine-app/static/css/main.61fb0ede.chunk.css.map",
+    "static/js/2.509d9487.chunk.js.LICENSE.txt": "/viettoanle2304/komine-app/static/js/2.509d9487.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1e430de2.js",
+    "static/js/2.509d9487.chunk.js",
+    "static/css/main.61fb0ede.chunk.css",
+    "static/js/main.9b30910d.chunk.js"
+  ]
+}
