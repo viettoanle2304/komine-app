@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/komine-app/static/css/main.61fb0ede.chunk.css",
-    "main.js": "/komine-app/static/js/main.1d1c6190.chunk.js",
-    "main.js.map": "/komine-app/static/js/main.1d1c6190.chunk.js.map",
+    "main.js": "/komine-app/static/js/main.ec9a21f1.chunk.js",
+    "main.js.map": "/komine-app/static/js/main.ec9a21f1.chunk.js.map",
     "runtime-main.js": "/komine-app/static/js/runtime-main.fe02941a.js",
     "runtime-main.js.map": "/komine-app/static/js/runtime-main.fe02941a.js.map",
     "static/js/2.509d9487.chunk.js": "/komine-app/static/js/2.509d9487.chunk.js",
     "static/js/2.509d9487.chunk.js.map": "/komine-app/static/js/2.509d9487.chunk.js.map",
     "index.html": "/komine-app/index.html",
-    "precache-manifest.8b59c4a7734e4ecdc2071301dd08cdc1.js": "/komine-app/precache-manifest.8b59c4a7734e4ecdc2071301dd08cdc1.js",
+    "precache-manifest.b3909dfee304c4898aad5745a5cc0356.js": "/komine-app/precache-manifest.b3909dfee304c4898aad5745a5cc0356.js",
     "service-worker.js": "/komine-app/service-worker.js",
     "static/css/main.61fb0ede.chunk.css.map": "/komine-app/static/css/main.61fb0ede.chunk.css.map",
     "static/js/2.509d9487.chunk.js.LICENSE.txt": "/komine-app/static/js/2.509d9487.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.fe02941a.js",
     "static/js/2.509d9487.chunk.js",
     "static/css/main.61fb0ede.chunk.css",
-    "static/js/main.1d1c6190.chunk.js"
+    "static/js/main.ec9a21f1.chunk.js"
   ]
 }
