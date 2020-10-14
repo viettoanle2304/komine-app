@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import './Navbar.css'
 import { Link } from 'react-router-dom'
 import { Button } from './Button'
@@ -18,18 +18,20 @@ function Navbar() {
         }
     }
 
+    useEffect(() => {
+        showButton()
+    }, [])
+
     window.addEventListener('resize', showButton)
 
     return (
         <>
             <nav className="navbar">
                 <div className="navbar-container">
-                        
-                        <Link to="/" className="navbar-logo">
-                            <img className='navbar-logo__komine-head' src={process.env.PUBLIC_URL + '/images/KomineHead.png'} alt="Logo"/>
-                            <img className='navbar-logo__main-logo' src={process.env.PUBLIC_URL + '/images/4.png'} alt="Logo"/>
-                        </Link>
-                    
+                    <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
+                        <img className='navbar-logo__komine-head' src={process.env.PUBLIC_URL + '/images/KomineHead.png'} alt="Logo"/>
+                        <img className='navbar-logo__main-logo' src={process.env.PUBLIC_URL + '/images/4.png'} alt="Logo"/>
+                    </Link>
                     <div className="menu-icon" onClick={handleClick}>
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
                     </div>
@@ -54,11 +56,15 @@ function Navbar() {
                                 Popular
                             </Link>
                         </li>
-                        {button && <Button buttonStyle='btn--outline'>
+                        <li className="nav-links-mobile">
+                            <Link to='/sign-in' className='nav-links' onClick={closeMobileMenu}>
+                                Sign In
+                            </Link>
+                        </li>
+                    </ul>
+                    {button && <Button buttonStyle='btn--outline'>
                         <i className='fas fa-user'></i> SIGN IN
                         </Button>}
-                    </ul>
-                    
                 </div>
             </nav>
         </>
