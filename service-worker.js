@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/komine-app/precache-manifest.7d558814dd71bb10696c179d17d931cd.js"
+  "/komine-app/precache-manifest.79e1646565b21afeb4ac53f64dfd30bf.js"
 );
 
 self.addEventListener('message', (event) => {
