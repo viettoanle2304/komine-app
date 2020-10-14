@@ -28,7 +28,7 @@ function Navbar() {
         <>
             <nav className="navbar">
                 <div className="navbar-container">
-                    <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
+                    <Link to="/komine-app" className="navbar-logo" onClick={closeMobileMenu}>
                         <img className='navbar-logo__komine-head' src={process.env.PUBLIC_URL + '/images/KomineHead.png'} alt="Logo"/>
                         <img className='navbar-logo__main-logo' src={process.env.PUBLIC_URL + '/images/4.png'} alt="Logo"/>
                     </Link>
@@ -37,7 +37,7 @@ function Navbar() {
                     </div>
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                         <li className="nav-item">
-                            <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+                            <Link to='/komine-app' className='nav-links' onClick={closeMobileMenu}>
                                 <i className='fas fa-home'></i> Home
                             </Link>
                         </li>
