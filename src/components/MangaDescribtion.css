@@ -1,0 +1,206 @@
+.chapter-container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-top: 17rem;
+    z-index: 10;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    left: 10%;
+    right: 10%;
+    height: 800px;
+    padding-bottom: 2rem;
+}
+
+.chapters {
+    display: block;
+    background: #fffafa;
+    height: 100%;
+    width: 65%;
+    text-align: center;
+    border-right: 0.5px solid rgb(189, 179, 179);
+    padding: 10rem 1rem 10rem 2rem;
+}
+
+.manga-description {
+    display: flex;
+    flex-direction: column;
+    background: #fffafa;
+    width: 35%;
+    height: 100%;
+    border-left: 0.5px solid rgb(189, 179, 179);
+    padding: 0 2rem;
+}
+
+.manga-description__reading-info {
+    padding-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.manga-description__reading-info .fa-book-reader {
+    font-size: 30px;
+    color: pink;
+    padding-right: 0.5rem;
+}
+
+.reader-count {
+    /* padding-left: 2rem; */
+    height: 30px;
+    width: 40%;
+}
+
+.reader-count > p {
+    font-size: 20px;
+    color: #000;
+}
+
+.reader-count > p:after {
+    content: '';
+    width: 2px;
+    margin-top: 2px;
+    margin-left: 2rem;
+    background: rgb(189, 179, 179);
+    height: 3%;
+    position: absolute;
+}
+
+.rating-star {
+    /* padding-top: rem; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-star;
+    /* padding-left: 2rem; */
+    width: 60%;
+}
+
+.rating-star .fa-star {
+    font-size: 30px;
+    color: pink;
+    padding-right: 0.5rem;
+}
+
+#rating-score {
+    font-size: 20px;
+    color: #000;
+    padding-right: 0.5rem;
+}
+
+#icon {
+    font-size: 16px;
+    color: #000;
+    background: pink;
+    padding: 10px;
+    border-radius: 20px;
+    width: 60px;
+    text-align: center;
+}
+
+.manga-description__info {
+    padding-top: 3rem;
+}
+
+.manga-description__info {
+    /* padding-left: 2rem; */
+    padding-bottom: 2rem;
+}
+
+.manga-description__info > h3 {
+    font-size: 30px;
+}
+
+.manga-description__info .fa-heart {
+    padding: 0.5rem;
+    border: 1px solid black;
+    color: pink;
+    border-radius: 25px;
+}
+
+.manga-desciption__text {
+    padding-bottom: 2rem;
+}
+
+.btn {
+    padding: 8px 20px;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn-cfa {
+    background: none;
+}
+
+.btn--outline {
+    background-color: transparent;
+    color: #000000;
+    padding: 8px 20px;
+    border: 1px solid #343434;
+    transition: all 0.3s ease-out;
+}
+
+.btn--large:hover {
+    transition: all 0.3s ease-out;
+    background: #000000;
+    color: #fffafa;
+    transition: 250ms;
+}
+
+.btn--large {
+    padding: 12px 26px;
+    font-family: 'Rubik', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+.chapters-info {
+    text-decoration: none;
+}
+
+.chapter-info {
+    color: black;
+    display: flex;
+    border-top: 0.1px solid #a19b9b;
+    border-bottom: 0.1px solid #a19b9b;
+}
+
+.chapter-info > p {
+    color: #bdb3b3;
+}
+
+.chapter-info > .fa-book-reader {
+    padding: 0.5rem;
+    background: #000;
+    color: pink;
+    font-size: 57px;
+    margin-right: 1.5rem;
+    display: flex;
+}
+
+.chapter {
+    display: grid;
+    grid-template-rows: repeat(5, auto);
+    
+}
+
+#chap {
+    color: black;
+    font-size: 20px;
+    margin: auto 17rem auto 0;
+
+}
+
+#date {
+    margin: auto 1rem;
+}
+
+#followers{
+    margin: auto 0;
+    display: block;
+}

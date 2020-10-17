@@ -5,10 +5,10 @@
     font-family: 'Noto Sans HK', sans-serif;
   }
   
-  .home,
+  /* .home,
   .latest,
   .genres,
-  .sign-up {
+  .sign-in {
     display: flex;
     height: 90vh;
     align-items: center;
@@ -34,7 +34,7 @@
     font-size: 100px;
   }
   
-  .sign-up {
+  .sign-in {
     background-image: url('/images/img-8.jpg');
     background-position: center;
     background-size: cover;
@@ -42,4 +42,4 @@
     color: #fff;
     font-size: 100px;
   }
-  
+   */

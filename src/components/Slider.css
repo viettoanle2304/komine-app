@@ -1,6 +1,5 @@
 .slider-container {
-    /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
-    height: 100vh;
+    height: 65vh;
     width: 100%;
     display: flex;
     /* flex-direction: column; */
@@ -9,19 +8,21 @@
     box-shadow: inset 0 0 0 1000px rgba(255, 250, 250, 0);
     object-fit: cover;
     overflow: hidden;
+    margin-top: 5px;
+    position: relative;
 }
 
 .slide {
     position: relative;
     min-width: 100%;
-    height: 90%;
+    height: 100%;
     transition: 0.5s;
 }
 
 #goLeft {
     left: 5px;
     position: absolute;
-    top: 50%;
+    top: 40%;
     transform: translateY(-50%);
     border: none;
     font-size: 2.5rem;
@@ -44,7 +45,7 @@
 #goRight {
     right: 5px;
     position: absolute;
-    top: 50%;
+    top: 40%;
     transform: translateY(-50%);
     border: none;
     font-size: 2.5rem;
@@ -55,12 +56,12 @@
 }
 
 .slide img {
-    object-fit: cover;
+    /* object-fit: cover; */
     width: 100%;
     height: 100%;
     position: fixed;
     z-index: -1;
-    padding-top: 5px;
+    /* padding-top: 5px; */
 }
 
 @media screen and (max-width: 960px) {
