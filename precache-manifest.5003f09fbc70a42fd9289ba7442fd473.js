@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "08edec18092c4fe018b07baaecb99a16",
+    "revision": "65626fffd07405817767db479565bb66",
     "url": "/komine-app/index.html"
   },
   {
-    "revision": "b054fc8dec730709ec78",
+    "revision": "e43186669d70479d736c",
     "url": "/komine-app/static/css/main.540a5ed3.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/komine-app/static/js/2.d507304a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b054fc8dec730709ec78",
-    "url": "/komine-app/static/js/main.b9e1fea8.chunk.js"
+    "revision": "e43186669d70479d736c",
+    "url": "/komine-app/static/js/main.f8a54eed.chunk.js"
   },
   {
     "revision": "05f37ea8e097d4a51390",
