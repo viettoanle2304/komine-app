@@ -17,7 +17,7 @@ function PopularCards(props) {
                         <div className="popular-cards__content--info">
                             <h4>{props.genres}</h4>
                             <h3>{props.name}</h3>
-                            <p>{props.chap}</p>
+                            <p>Chap {props.chap}</p>
                         </div>
                     </div>
                 </div>
