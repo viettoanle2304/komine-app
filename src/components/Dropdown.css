@@ -1,0 +1,55 @@
+.dropdown-container {
+    position: absolute;
+    z-index: 10;
+    left: 46%;
+    top: 35%;
+    text-align: center;
+}
+
+#chap:focus {
+    outline: none;
+}
+
+#chap {
+    border: 2px solid #fffafa;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+#next-chap {
+    right: 5px;
+    position: absolute;
+    top: 40%;
+    right: 55%;
+    transform: translateY(-50%);
+    border: none;
+    font-size: 2.5rem;
+    background: none;
+    color: #000;
+    cursor: pointer;
+    opacity: 1;
+}
+
+#prev-chap {
+    left: 5px;
+    position: absolute;
+    top: 40%;
+    left: -15%;
+    transform: translateY(-50%);
+    border: none;
+    font-size: 2.5rem;
+    background: none;
+    color: #000;
+    cursor: pointer;
+    opacity: 1;
+}
+
+#next-chap:hover {
+    right: 52%;
+    transition: 0.5s ease;
+}
+
+#prev-chap:hover {
+    left: -18%;
+    transition: 0.5s ease;
+}

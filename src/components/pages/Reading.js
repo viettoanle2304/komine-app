@@ -1,8 +1,19 @@
 import React from 'react'
+import '../../App'
+import Dropdown from '../Dropdown'
+import ReadingArea from '../ReadingArea'
+import TitleInfo from '../TitleInfo'
 
 function Reading() {
     return (
-        <h1 className="latest">READING PAGE</h1>
+        <>
+            <TitleInfo 
+            src={process.env.PUBLIC_URL + '/images/NarutoPoster.jpg'}
+            name='Naruto'
+            genres='Adventure, Fantasy'/>
+            <Dropdown />
+            <ReadingArea />
+        </>
     )
 }
 
