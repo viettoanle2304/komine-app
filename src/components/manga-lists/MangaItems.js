@@ -8,7 +8,10 @@ export const MangaItems = [
             '204',
             '203'
         ],
-        cover_image: '/images/OnePieceTitle.png'
+        cover_image: '/images/OnePieceTitle.png',
+        poster_images: '',
+        week_rank: '1',
+        month_rank: '2',
     },
     {
         name: 'Naruto',
@@ -23,6 +26,8 @@ export const MangaItems = [
             '606'
         ],
         cover_image: '/images/NarutoTitle.jpg',
-        poster_image: '/images/NarutoPoster.jpg'
+        poster_image: '/images/NarutoPoster.jpg',
+        week_rank: '2',
+        month_rank: '1'
     }
 ]

@@ -1,0 +1,75 @@
+.popular-cards__container {
+    display: flex;
+    position: relative;
+    padding-top: 0.5rem;
+    /* background: #fff; */
+}
+
+.ranking {
+    position: relative;
+    border: 1px solid black;
+    width: 7.5%;
+    height: 40px;
+    text-align: center;
+    background: #000;
+    border-radius: 25px;
+    margin-right: 0.5rem;
+}
+
+.ranking > p {
+    font-size: 25px;
+    color: #fffafa;
+}
+
+.popular-cards__content {
+    border-left: 5px solid #bab5b5;
+    width: 100%;
+    border-bottom: 5px solid #ebeaea;
+    padding: 0.3rem;
+}
+
+.popular-cards__content--detail {
+    display: flex;
+}
+
+.popular-cards__content--pic {
+    position: relative;
+    border: 1px solid black;
+    width: 15%;
+    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+    -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    margin-right: 1rem;
+    height: 90%;
+}
+
+.popular-cards__content--pic > img {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.popular-cards__content--info {
+    width: 95%;
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    justify-content: start;
+    align-items: center;
+}
+
+.popular-cards__content--info > h3 {
+    font-size: 30px;
+    color: #6533cb;
+    padding-bottom: 1rem;
+}
+
+.popular-cards__content--info > h4 {
+    font-size: 10px;
+    text-align: left;
+    color: red;
+}
+
+.popular-cards__content--info > p {
+    font-size: 10px;
+    color: #bab5b5;
+}

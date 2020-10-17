@@ -1,0 +1,47 @@
+.popular-sections {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+}
+
+.popular-sections__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 85vw;
+    margin-bottom: 2rem;
+}
+
+.popular-week {
+    width: 50%;
+    /* min-height: 1020px; */
+    margin-right: 1rem;
+}
+
+.popular-month {
+    width: 50%;
+    /* min-height: 1020px; */
+    margin-left: 1rem;
+}
+
+.popular-week__cards--container {
+    padding-left: 0.5rem;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#week-title, #month-title {
+    font-size: 20px;
+    text-align: left;
+}
+
+#popular-section__link::before {
+    display: none;
+}
+
+#main-title {
+    font-size: 30px;
+    text-align: center;
+}
