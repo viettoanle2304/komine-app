@@ -2,7 +2,7 @@
     position: absolute;
     z-index: 10;
     left: 46%;
-    top: 35%;
+    top: 37%;
     text-align: center;
 }
 
@@ -12,7 +12,6 @@
 
 #chap {
     border: 2px solid #fffafa;
-    border-radius: 15px;
     font-size: 20px;
 }
 
